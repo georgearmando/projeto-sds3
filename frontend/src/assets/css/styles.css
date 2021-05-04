@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
+/*
+  Serve para definir variáveis
+*/
+
+:root {
+  --color-primary: #FF8400;
+}
+
+html, body {
+  height: 100%;
+  font-family: "Ubuntu", sans-serif;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.content {
+  flex: 1 0 auto;
+}
+
+.footer {
+  flex-shrink: 0;
+  text-align: center;
+}
+
+/*
+  Estamos a definir uma cor primaria de background 
+  diferente da cor padrão do bootstrap
+*/
+
+.bg-primary {
+  background-color: var(--color-primary) !important;
+}
+
+/*
+  Estamos a definir uma cor primaria de texto 
+  diferente da cor padrão do bootstrap
+*/
+
+.text-primary {
+  color: var(--color-primary) !important;
+}
